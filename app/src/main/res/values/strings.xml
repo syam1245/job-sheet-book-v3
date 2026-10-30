@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">JobSheetBook</string>
+    <string name="warning_title_soft">Confirm Status Change</string>
+    <string name="warning_title_strong">Reopen Finalized Job?</string>
+    <string name="warning_title_strong_terminal">Change Finalized Job?</string>
+    <string name="warning_subtitle_job_id">Job %1$s</string>
+
+    <string name="warning_reason_leaving_terminal_active">Parts tracking was cleared and does not come back. The job returns to the active dashboard. The earlier Delivered or Return event stays in the timeline.</string>
+    <string name="warning_reason_leaving_terminal_archived">Parts tracking was already cleared. The job stays archived. The earlier event stays in the timeline.</string>
+    <string name="warning_reason_skipped_step">You are skipping one or more expected steps in the workflow.</string>
+    <string name="warning_reason_backward_move">You are moving the job backward in the workflow.</string>
+    <string name="warning_reason_zero_cost">You are finalizing the job, but the final cost is zero.</string>
+
+    <string name="warning_reason_headline_skipped_step">Skipped a step</string>
+    <string name="warning_reason_headline_backward_move">Moving backward</string>
+    <string name="warning_reason_headline_leaving_terminal">Finalized job</string>
+    <string name="warning_reason_headline_zero_cost">No final cost</string>
+
+    <string name="action_reopen_job">Reopen job</string>
+    <string name="action_change_anyway">Change anyway</string>
+    <string name="action_keep_status">Keep current status</string>
+
+    <string name="toggle_full_job">Full job</string>
+    <string name="toggle_quick_job">Quick job</string>
+    <string name="quick_job_banner_text">Saves as Delivered. Enter the final cost so it counts in revenue.</string>
+    <string name="action_save_as_delivered">Save as delivered</string>
+    <string name="action_create_job">Create Job</string>
+    <string name="action_update_job">Update Job</string>
+
+    <string name="error_phone_invalid">Enter a 10-digit number. International numbers start with +.</string>
+    <string name="techmech_enquiry_long_click_label">Ask TechMech about job</string>
+    <string name="whatsapp_not_installed">WhatsApp is not installed</string>
+    <string name="ask_techmech_title">Ask TechMech about %1$s</string>
+    <string name="btn_choose_contact_or_group">Choose contact or group</string>
+    <string name="btn_message_techmech_number">Message TechMech number</string>
+    <string name="choose_whatsapp">Choose WhatsApp</string>
+    <string name="techmech_msg_job_no">Job no:</string>
+    <string name="techmech_msg_customer">Customer:</string>
+    <string name="techmech_msg_device">Device:</string>
+    <string name="techmech_msg_problem">Problem:</string>
+    <string name="techmech_msg_ref">TechMech ref:</string>
+    <string name="techmech_msg_closing">Estimation &amp; Status?</string>
+    <string name="techmech_msg_not_recorded">Not recorded</string>
+    <string name="techmech_msg_walk_in">Walk-in</string>
+    <string name="final_cost_set_in_tracker">Set in the TechMech tracker</string>
+</resources>

@@ -1,0 +1,33 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build logs and temporary files
+*.log
+build_output.txt
+kt_files.txt
+build_error_final.txt
+build_log.txt
+full_build_log.txt
+.kotlin/
+
+# Firebase & Credentials
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Signing & Keystores
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# API Keys & Secrets
+**/secrets.properties
+**/apikeys.properties
